@@ -1,6 +1,5 @@
 # PetPops
-This website is created responsively for both desktop and mobile versions using HTML5, CSS3, and JavaScript. It provides a user-friendly experience across various devices, ensuring that pet lovers can easily navigate and interact with the content on any screen size.
-<br>
+This website is created responsively for both desktop and mobile versions using HTML5, CSS3, and JavaScript. It provides a user-friendly experience across various devices, ensuring that pet lovers can easily navigate and interact with the content on any screen size.<br>
 <br>
 The below images provide glimpse into the user-friendly experience created for both desktop and mobile users.
 <br>
@@ -21,6 +20,7 @@ Currently, this website is built using HTML, CSS, and JavaScript. The next step 
 
 **2. Checkout Feature**
 The checkout feature is still under development. Once completed, it will allow users to seamlessly purchase items from the pet shop. The feature will include a cart system, payment gateway integration, and order confirmation.
+<br><br>
 <img width="884" alt="image" src="https://github.com/user-attachments/assets/5804e9af-9199-43d2-9b7b-0ab34e9ef731">
 
 **3. Continuous Integration/Continuous Deployment (CI/CD)**
