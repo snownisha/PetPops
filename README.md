@@ -16,13 +16,13 @@ The below images provide glimpse into the user-friendly experience created for b
 
 ## Upcoming Features
 **1. Framework Integration**
-Currently, this website is built using HTML, CSS, and JavaScript. The next step is to enhance the project by learning and integrating a JavaScript framework, such as React.js, Vue.js, or Angular. This will allow for more dynamic content rendering and better state management, improving the overall user experience.
+Currently, this website is built using HTML, CSS, and JavaScript. The next step is to enhance the project by learning and integrating a JavaScript framework, such as React.js, Vue.js, or Angular. This will allow for more dynamic content rendering and improve the overall user experience.
 
 **2. Checkout Feature**
-The checkout feature is still under development. Once completed, it will allow users to seamlessly purchase items from the pet shop. The feature will include a cart system, payment gateway integration, and order confirmation.
+The checkout feature is still under development. Once completed, it will allow users to seamlessly purchase items from the pet shop. The feature will include a cart system, payment gateway integration and order confirmation.
 <br><br>
 <img width="884" alt="image" src="https://github.com/user-attachments/assets/5804e9af-9199-43d2-9b7b-0ab34e9ef731">
 
 **3. Continuous Integration/Continuous Deployment (CI/CD)**
-To streamline the development process, I plan to learn and implement CI/CD pipelines. This will automate testing, building, and deployment processes, ensuring that updates to the website are delivered efficiently and reliably.
+To streamline the development process, I plan to learn and implement CI/CD pipelines. This will automate testing, building and deployment processes, ensuring that updates to the website are delivered efficiently and reliably.
 
