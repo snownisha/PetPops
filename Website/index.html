@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetPops: The Happy Pet Shop!</title>
+    <link rel="icon" type="image/png" href="images/title.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo" height="130" width="130">
+        </a>
+
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#About">About Us</a>
+            <a href="#dogs">Dogs</a>
+            <a href="#cats">Cats</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+
+        <div class="icons">
+        <!--<div class="fas fa-search" id="search-btn"></div>-->
+            <div class="fas fa-shopping-cart" id="cart-btn" onclick="alert('Sorry, this page is under construction'); return false;"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Search here">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        
+
+        <div class ="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/dog1.png" alt="Dog 1" height="90" width="90">
+                <div class="content">
+                    <h3>Cart Item 01</h3>
+                    <div class="price">₹1500</div>
+                </div>
+            </div> 
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/dog2.png" alt="Dog 2"  height="90" width="90">
+                <div class="content">
+                    <h3>Cart Item 02</h3>
+                    <div class="price">₹3000</div>
+                </div>
+            </div> 
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/dog3.png" alt="Dog 3"  height="90" width="90">
+                <div class="content">
+                    <h3>Cart Item 03</h3>
+                    <div class="price">₹2000</div>
+                </div>
+            </div> 
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/dog4.png" alt="Dog 4"  height="90" width="90">
+                <div class="content">
+                    <h3>Cart Item 03</h3>
+                    <div class="price">₹19000</div>
+                </div>
+            </div> 
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/dog5.png" alt="Dog 5"  height="90" width="90">
+                <div class="content">
+                    <h3>Cart Item 03</h3>
+                    <div class="price">₹8000</div>
+                </div>
+            </div> 
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/dog6.png" alt="Dog 6"  height="90" width="90">
+                <div class="content">
+                    <h3>Cart Item 03</h3>
+                    <div class="price">₹15000</div>
+                </div>
+            </div> 
+
+            <a href="#" class="btn">Checkout</a>
+        </div>
+        
+    </header>
+
+
+    <!--home section-->
+
+    <section class="Home" id="Home">
+        <div class="content">
+            <h3>Welcome to PetPops!</h3>
+            <p>At PetPops, we believe that pets are more than just animals—they are family members who bring joy, companionship, and love into our lives. Whether you're looking for a furry friend, a feathery companion, or a scaly sidekick, our shop is dedicated to matching you with the perfect pet.
+                From playful puppies and cuddly kittens to chirpy birds and curious reptiles, we have a wide variety of pets waiting to find their forever homes.Our team is passionate about pets and committed to ensuring they receive the best care, both in our shop and in your home.
+            </p>
+            <a href="#dogs" class="btn">get your pet now!</a>
+        </div>
+    </section>
+    <!--home section end-->
+
+<!--About section-->
+<section class="About" id="About">
+    <h1 class="heading"><span>About Us</span></h1>
+    <div class="row">
+        <div class="image">
+            <img src="images/about-img.png" alt="about">
+        </div>
+        <div class="content">
+            <h3>Why PetPops?</h3> 
+            <p>Founded in August 2024, PetPops: The Happy Pet Shop is dedicated to enhancing the lives of pets and their families. With a commitment to quality and care, we offer a curated selection of premium pet supplies, nutritious food, and essential grooming products. Our passionate team provides personalized service and expert advice to ensure your pet's well-being. Thank you for choosing us—where every pet finds their happy place!</p>
+            <a href="#dogs" class="btn">To know more</a>
+        </div>
+    </div>
+</section>
+<!--About section end-->
+
+<!--Dogssection-->
+<section class="dogs" id="dogs">
+    <h1 class="heading"><span>Available Dogs</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/dog1.png" alt="Dog1" >
+            <div class="price">₹1500</div>
+            <a href="#" class="btn" onclick="alert('The page (Adding an item to cart) is under construction'); return false;">Add to Cart</a>
+            <!--<a href="#" class="btn">Add to Cart</a>-->
+        </div>
+
+        <div class="box">
+            <img src="images/dog2.png" alt="Dog2" >
+            <div class="price">₹3000</div>
+            <a href="#" class="btn" onclick="alert('The page (Adding an item to cart) is under construction'); return false;">Add to Cart</a>
+            <!--<a href="#" class="btn">Add to Cart</a>-->
+        </div>
+
+        <div class="box">
+            <img src="images/dog3.png" alt="Dog3" >
+            <div class="price">₹2000</div>
+            <a href="#" class="btn" onclick="alert('The page (Adding an item to cart) is under construction'); return false;">Add to Cart</a>
+            <!--<a href="#" class="btn">Add to Cart</a>-->
+        </div>
+
+        <div class="box">
+            <img src="images/dog4.png" alt="Dog4" >
+            <div class="price">₹19000</div>
+            <a href="#" class="btn" onclick="alert('The page (Adding an item to cart) is under construction'); return false;">Add to Cart</a>
+            <!--<a href="#" class="btn">Add to Cart</a>-->
+        </div>
+
+        <div class="box">
+            <img src="images/dog5.png" alt="Dog5" >
+            <div class="price">₹8000</div>
+            <a href="#" class="btn" onclick="alert('The page (Adding an item to cart) is under construction'); return false;">Add to Cart</a>
+            <!--<a href="#" class="btn">Add to Cart</a>-->
+        </div>
+
+        <div class="box">
+            <img src="images/dog6.png" alt="Dog6" >
+            <div class="price">₹15000</div>
+            <a href="#" class="btn" onclick="alert('The page (Adding an item to cart) is under construction'); return false;">Add to Cart</a>
+            <!--<a href="#" class="btn">Add to Cart</a>-->
+        </div>
+
+
+    </div>
+
+</section>
+<!--Dogs section end-->
+
+<!--Cats section-->
+<section class="cats" id="cats">
+    <h1 class="heading"><span>Available Cats</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/cat1.png" alt="cat1" >
+            <div class="price">₹2000</div>
+            <a href="#" class="btn" onclick="alert('The page (Adding an item to cart) is under construction'); return false;">Add to Cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cat2.png" alt="cat2" >
+            <div class="price">₹2300</div>
+            <a href="#" class="btn" onclick="alert('The page (Adding an item to cart) is under construction'); return false;">Add to Cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cat3.png" alt="cat3" >
+            <div class="price">₹5500</div>
+            <a href="#" class="btn" onclick="alert('The page (Adding an item to cart) is under construction'); return false;">Add to Cart</a>
+        </div>
+
+
+    </div>
+</section>
+
+<section class="review" id="review">
+<h1 class="heading">Customer's Review</h1>
+<div class="box-container">
+    <div class="box">
+        <img src="" alt="" class="quote">
+        <p>Adopting my Golden Retriever from PetPops has been one of the best decisions I've ever made! The staff were incredibly knowledgeable and helped me choose the perfect dog for my family. My Golden Retriever is not only beautiful but also healthy and well-behaved. The entire adoption process was smooth and hassle-free. I highly recommend PetPops to anyone looking for a loyal and loving companion!</p>
+        <img src="images/shajona.jpeg" class="user" alt="">
+        <h3>Shajona G.Bert</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="" alt="" class="quote">
+        <p>PetPops made it so easy to find the perfect pet for my home. <br>
+        I adopted a Husky, and he's been an absolute joy! The staff were friendly, helpful, and truly cared about matching me with the right dog. My Husky came home happy and healthy, and he's quickly become the heart of our household. <br>If you're looking for a pet, PetPops is the place to go!"</p>
+        <img src="images/sindhu.jpeg" class="user" alt="">
+        <h3>Sindhuja Joseph</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            
+
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="" alt="" class="quote">
+        <p>I recently bought a German Shepherd from PetPops, and I couldn't be happier with my experience. The team was very professional and answered all my questions with patience. My German Shepherd is everything I hoped for—strong, intelligent, and full of energy. The care and attention the team at PetPops gives to their pets are evident in the quality of their animals. I would definitely recommend them to all pet lovers!</p>
+        <img src="images/SnowNisha.png" class="user" alt="">
+        <h3>Snow Nisha</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+    
+        </div>
+    </div>
+</div>
+
+
+</section>
+
+<section class="contact" id="contact">
+    <h1 class="heading">Contact Us</h1>
+    <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15696.48942645814!2d78.49880567455777!3d10.411855739989921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa78783b183fe3%3A0xbe6ff6dd4b8b6937!2sPalakurichy%2C%20Tamil%20Nadu%20621308!5e0!3m2!1sen!2sin!4v1723475047354!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+        <form action="">
+            <div class="inputBox">
+               <span class="fas fa-user"></span> 
+               <input type="text" placeholder="Name">
+            </div>
+
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span> 
+                <input type="email" placeholder="email">
+             </div>
+
+             <div class="inputBox">
+                <span class="fas fa-phone"></span> 
+                <input type="number" placeholder="Phone Number">
+             </div>
+             <input type="submit" value="Contact Now" class="btn" onclick="alert('Thank you! We will contact you shortly'); return false;">
+
+        </form>
+    </div>
+
+</section>
+
+<footer>
+    <section class="footer">
+        <div class="share">
+            <a href="#https://www.facebook.com/snow.nisha.58" class="fab fa-facebook-f"></a>
+            <a href="#https://www.instagram.com/snow_nishaa/" class="fab fa-instagram"></a>
+            <a href="#https://www.linkedin.com/in/snow-nisha-amala-doss-5452a9117/" class="fab fa-linkedin"></a>
+        </div>
+<!--
+        <div class="links">
+            <a href="#Home">Home</a>
+            <a href="#About">About Us</a>
+            <a href="#dogs">Dogs</a>
+            <a href="#cats">Cats</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+-->
+        <div class="credit">Created by PetPops| All rights reserved</div>
+    </section>
+</footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
