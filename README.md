@@ -6,7 +6,9 @@ The below images provide glimpse into the user-friendly experience created for b
 <br>
 <img width="891" alt="image" src="https://github.com/user-attachments/assets/77cd76d9-3a78-4575-b68d-264a9a3cccf3">
 <br>
+<br>
 <img width="875" alt="image" src="https://github.com/user-attachments/assets/8bfe3572-f799-4f27-860f-8e56de3741a4">
+<br>
 <br>
 <img width="326" alt="image" src="https://github.com/user-attachments/assets/c1ff826b-d59c-4cb8-a605-1af18a867bfc">
 
